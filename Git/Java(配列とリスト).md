@@ -42,6 +42,18 @@ scores[0] = 1;
 
 ---
 
+# 配列のさまざまな記述方法
+
+① 配列の宣言と同時に、要素の作成も行う方法
+```Java
+int[] scores;
+scores = new int[3];
+```
+上記は下記のように１行で記述可能！！
+
+```Java
+int[] scores = new int[3];
+```
 
 
 
