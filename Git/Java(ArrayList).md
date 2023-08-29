@@ -10,8 +10,11 @@ ArrayListはデータを入れるためのリストで、そのリストの中�
 # ArrayListの使い方
 
 ① ライブラリをインポートする   
-② ArrayListの宣言を行う   
+
+② ArrayListの宣言を行う 
+
 ③ ArrayListに値を代入する   
+
 ④ ArrayListから要素を取り出す   
 
 ---
