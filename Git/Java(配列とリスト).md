@@ -55,6 +55,16 @@ scores = new int[3];
 int[] scores = new int[3];
 ```
 
+② 配列の宣言時に型推論を使用する方法
+```Java
+var scores = new int[3];
+```
+var を使うことで、Javaは変数 scores が整数型の配列であることを自動的にわかるようにしてくれる。  
+int[] scores = new int[3]; のように型を書く必要なくなる
+
+③ 配列の宣言から値の代入まで全て同時に行う方法
+
+
 
 
 
