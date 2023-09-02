@@ -32,3 +32,18 @@ Javaの代数演算子・比較演算子は、使用する記号も演算の行�
 算術演算子同士の優先順位は、乗算・除算・余剰 > 加算・減算 。   
 優先順位を明示したい場合は、(3 + 4) * 2のように () でその部分を囲むこと！   
 
+---
+
+# 文字列の連結
++演算子のみ、文字を連結する という役割がある
+
+```java
+public class Sample3 {
+    public static void main(String[] args) {
+        System.out.println("Hello" + "World!");
+    }
+}
+```
+
+
+
