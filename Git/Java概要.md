@@ -46,5 +46,8 @@ Javaエンジニアは下記の命名指針に従ってファイルを作成す�
 
 ---
 
+# Javaの利用にあたってIntelliJを使用
+
+参考URL：https://qiita.com/toranoko92114/items/5ba147a76344ca00a1d9
 
 
