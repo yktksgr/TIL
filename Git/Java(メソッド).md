@@ -18,3 +18,7 @@ java.lang.ArrayIndexOutOfBoundsException | 範囲外の配列のインデック�
 java.lang.NumberFormatException | 文字列を数値型にキャストできない
 java.lang.UnsupportedClassVersionError | コンパイル時と、実行時のJavaのバージョンが異なる
 java.lang.StackOverflowError| メモリのスタック領域が不足している
+
+上記の共通点はチーム開発でコード記述時点では予防しにくい。そのためにエラーについて対応する文法と仕組みがある
+
+# try-catch文
