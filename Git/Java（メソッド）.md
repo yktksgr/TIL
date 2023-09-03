@@ -18,6 +18,37 @@ Javaのメソッド定義では、返り値のデータ型を指定必須。
 返り値がない場合は、「中身がない」ことを意味する「void」と記述。
 
 # アクセス修飾子
-修飾子は、クラスやメソッド、変数などの定義を行う際に、特定の機能を付加するもの
+クラス（class）、メソッド（method）、フィールド（field）などの要素に対して、他の部分からのアクセスの許可や制限を指定するもの.
+
+public（パブリック）:   
+public 修飾子をつけると、その要素はどこからでもアクセス可能。   
+他のクラスやパッケージからもアクセス可能。
+```java
+public class MyClass {
+    public int myField;
+    
+    public void myMethod() {
+        // メソッドの中身
+    }
+}
+```
+このクラス内の myField フィールドと myMethod メソッドは、どこからでもアクセスできる。
+
+private（プライベート）:   
+private 修飾子をつけると、その要素は同じクラス内からのみアクセスできる。他のクラスからはアクセスできない。
+
+```java
+Copy code
+public class MyClass {
+    private int myField;
+    
+    private void myMethod() {
+        // メソッドの中身
+    }
+}
+```
+myField フィールドと myMethod メソッドは、同じ MyClass クラス内でしかアクセスできまない。
+
+---
 
 
