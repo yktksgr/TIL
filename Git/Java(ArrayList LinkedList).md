@@ -53,4 +53,47 @@ while(sample.hasNext()) {
     // 要素を用いた処理
 }
 ```
+---
+# LinkedList
+LinkedListはListと継承関係にあり、同様にListと継承関係にあるArrayListの兄弟のようなクラス
+
+ArrayListパターン
+```java
+import java.util.ArrayList;
+
+public class Template {
+
+    public static void main(String[] args) {
+
+        ArrayList<String> fruits = new ArrayList<>();
+
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Orange");
+
+        System.out.println("取り出されたフルーツは" + fruits.get(1) + "です");
+    }
+
+}
+```
+
+LinkedListパターン
+```java
+import java.util.LinkedList;
+
+public class Template {
+
+    public static void main(String[] args) {
+
+        LinkedList<String> fruits = new LinkedList<>();
+
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Orange");
+
+        System.out.println("取り出されたフルーツは" + fruits.get(1) + "です");
+    }
+
+}
+```
 
