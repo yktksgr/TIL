@@ -45,4 +45,11 @@ for ( 配列の型名 変数名 : 配列名) {
 3.Iterator（イテレータ）を利用してArrayListを取り出す
 
 Iteratorとは、コレクションの要素を順に処理する場合に使用するもの。矢印「→」のようなイメージ
+```java
+Iterator<リスト要素の型> sample = リスト変数.iterator(); #宣言方法
 
+while(sample.hasNext()) {
+    リスト要素の型 e = sample.next();
+    // 要素を用いた処理
+}
+```
