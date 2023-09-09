@@ -3,3 +3,16 @@
 
 アノテーションは、クラスやメソッドに特別な意味を持たせるための機能。
 
+```Java
+@Controller
+public class PostController {
+    @GetMapping("/hello")
+    @ResponseBody
+    public String showHello(){
+        return "<h1>Hello World!</h1>";
+    }
+}
+```
+---
+
+# @Controller
