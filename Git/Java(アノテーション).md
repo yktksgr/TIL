@@ -16,3 +16,21 @@ public class PostController {
 ---
 
 # @Controller
+
+@Controllerは、そのクラスがコントローラーであることをSpringに伝えるためのアノテーション
+
+Railsでは、「rails g controller」というコマンドを実行することでコントローラーを作成。それに対してSpringでは、クラス定義の直前に「@Controller」と記述することで、クラスがコントローラーとして扱われる。
+
+# @GetMapping
+
+GetMappingは、ブラウザで入力されたURLと、実行されるメソッドを紐づけるためのアノテーション
+
+Railsでは、routes.rbファイルに以下の記述を行うことで、「/post」というURLと「Postsコントローラーのindexアクション」を関連づけていた。
+
+
+```Ruby
+get 'posts', to: 'posts#index'
+```
+@Mappingは、このRailsのルーティングと同様の機能。
+
+メソッドの前に、「@GetMapping("/hello")」というアノテーションをつけることで、URLに「（アプリのルートパス）/hello」と入力された場合、そのメソッドが実行されるようになる
