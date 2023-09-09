@@ -34,3 +34,9 @@ get 'posts', to: 'posts#index'
 @Mappingは、このRailsのルーティングと同様の機能。
 
 メソッドの前に、「@GetMapping("/hello")」というアノテーションをつけることで、URLに「（アプリのルートパス）/hello」と入力された場合、そのメソッドが実行されるようになる
+
+# @ResponseBody
+
+@ResponseBodyは、ブラウザからのリクエストに対して、直接HTMLを返す際に利用するアノテーション
+
+---
