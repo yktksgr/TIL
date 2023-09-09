@@ -40,3 +40,4 @@ get 'posts', to: 'posts#index'
 @ResponseBodyは、ブラウザからのリクエストに対して、直接HTMLを返す際に利用するアノテーション
 
 ---
+#
