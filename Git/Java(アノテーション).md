@@ -40,5 +40,9 @@ get 'posts', to: 'posts#index'
 @ResponseBodyは、ブラウザからのリクエストに対して、直接HTMLを返す際に利用するアノテーション
 
 ---
-# Thymelea
+# Thymeleaf
+Spring Bootにあるライブラリ
+
+Railsでは、ERBというテンプレートエンジンを使用。  
+ERBを使用することで、コントローラーとビューのコードを分離して管理しやすくしていた！
 
