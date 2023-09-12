@@ -47,3 +47,6 @@ Railsでは、ERBというテンプレートエンジンを使用。
 ERBを使用することで、コントローラーとビューのコードを分離して管理しやすくしていた！
 
 導入作業は、ルートディレクトリにある「build.gradle」ファイルに記述をする
+```java
+implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+```
