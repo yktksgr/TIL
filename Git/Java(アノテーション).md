@@ -40,6 +40,12 @@ get 'posts', to: 'posts#index'
 @ResponseBodyは、ブラウザからのリクエストに対して、直接HTMLを返す際に利用するアノテーション
 
 ---
+# @PathVariable
+
+@PathVariableは、URLに含まれるパラメータを受け取るためのアノテーション   
+メソッド内で使用したい変数の前に、このアノテーションをつけることで受け取ることができます。
+
+---
 # Thymeleaf
 Spring Bootにあるライブラリ
 
