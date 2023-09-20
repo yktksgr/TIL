@@ -23,3 +23,5 @@ postsテーブルから全件データを取得するための「findAll」と�
 List<PostEntity> findAll();
 ```
 
+
+
