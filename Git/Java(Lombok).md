@@ -2,6 +2,7 @@
 
 ライブラリ名 |	機能 |
 --- | ---- |
-MySQL Driver	|  JavaからMySQLを操作するためのライブラリです。
-MyBatis	| SQL文の発行を、Javaのメソッドとして定義できるようにするライブラリです。
-Lombok 	コードの記述を簡略化するためのライブラリです。
+MySQL Driver	|  JavaからMySQLを操作するためのライブラリ
+MyBatis	| SQL文の発行を、Javaのメソッドとして定義できるようにするライブラリ
+Lombok |	コードの記述を簡略化するためのライブラリ
+
