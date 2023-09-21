@@ -8,7 +8,6 @@ Lombok |	コードの記述を簡略化するためのライブラリ
 
 build.gradle　に下記のように入力する
 ```java
-
 dependencies {
     ~省略〜
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2'
@@ -16,5 +15,4 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 }
-
 ```
