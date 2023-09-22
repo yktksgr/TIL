@@ -10,3 +10,5 @@
 
 手法   
 Mac ：commandキーとshiftキーとRキーを同時押し 
+
+---
