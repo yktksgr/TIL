@@ -37,4 +37,5 @@ Spring Bootでは、このModel型のオブジェクトは特別な意味を持�
 ```Java
 @ModelAttribute("呼び出すときの名称") 保存したい変数のデータ型　保存したい変数
 ```
+このコードによって、PostForm型の変数formを登録し、後で「postForm」という名称で呼び出せる。
 
