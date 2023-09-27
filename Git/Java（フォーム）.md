@@ -18,3 +18,18 @@ paramsはRailsによって自動的に生成され、コントローラー内で
 
 ---
 
+# コントローラーの変更する
+```java
+~省略
+@GetMapping("/postForm")
+    public String showPostForm(@ModelAttribute("postForm") PostForm form){
+        return "postForm";
+    }
+
+```
+@ModelAttribute/このアノテーションを使用すると、任意のデータをModel型のオブジェクト内に格納可能になる。
+
+Spring Bootでは、このModel型のオブジェクトは特別な意味を持っており、データの一時保管場所のように活用できる。
+
+コントローラーでこの保管場所にデータを保管しておき、それをビューで呼び出すという使い方となる。
+
