@@ -44,6 +44,7 @@ Spring Bootでは、このModel型のオブジェクトは特別な意味を持�
 一例として・・・
 ```java
 <form action="#" th:action="@{/posts}" th:method="post" th:object="${postForm}">
+<input type="text" id="summaryInput" th:field="*{memo}">
 ```
 Thymeleafを使って３つの指定をおこなっている。
 
@@ -55,4 +56,11 @@ th:method="post"は、フォームで投稿が行われた際に送信するHTTP
 
 th:object="${postForm}"は、フォームの投稿内容を紐づけるFormクラスを指定するためのもの。   
 この記述により、コントローラーで設定したpostFormとフォームを紐づけている。
+
+---
+下記は、テキストボックスを作成するためのタグ
+```java
+<input type="text" id="summaryInput" th:field="*{memo}">
+```
+
 
