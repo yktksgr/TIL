@@ -62,5 +62,8 @@ th:object="${postForm}"は、フォームの投稿内容を紐づけるFormク�
 ```java
 <input type="text" id="summaryInput" th:field="*{memo}">
 ```
+th:field="*{memo}"   
+テキストボックスに入力されたデータを、postFormオブジェクトの変数memoに代入するよう紐づけている。
 
+---
 
