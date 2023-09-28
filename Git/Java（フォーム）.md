@@ -39,3 +39,10 @@ Spring Bootでは、このModel型のオブジェクトは特別な意味を持�
 ```
 このコードによって、PostForm型の変数formを登録し、後で「postForm」という名称で呼び出せる。
 
+---
+# ビューの作成
+一例
+```java
+<form action="#" th:action="@{/posts}" th:method="post" th:object="${postForm}">
+```
+
