@@ -41,8 +41,12 @@ Spring Bootでは、このModel型のオブジェクトは特別な意味を持�
 
 ---
 # ビューの作成
-一例
+一例として・・・
 ```java
 <form action="#" th:action="@{/posts}" th:method="post" th:object="${postForm}">
 ```
+Thymeleafを使って３つの指定をおこなっている。
+
+th:action="@{/posts}"は、フォームで投稿が行われた際に、次にアクセスするURLを指定するための記述。   
+（ここでは、/postsを指定。）
 
