@@ -15,9 +15,9 @@ pubulic class NewCar extends BaseCar{
 
 #　継承のメリット
 
-[新車クラス]
-
 継承を利用しない場合・・・・
+
+[新車クラス]
 ```java
 public class NewCar {
     /**
@@ -44,7 +44,6 @@ public class NewCar {
     }
 
 ```
-
 [中古クラス]
 ```java
 public class OldCar {
@@ -78,6 +77,7 @@ public class OldCar {
 
 ---
 継承を利用してみる。
+
 [車の基本クラス]
 ```java
 public class BaseCar {
