@@ -10,7 +10,6 @@
 「extends」の前にサブクラス名（子クラス名）、後にスーパークラス名（親クラス名）を指定。
 ```Java
 pubulic class NewCar extends BaseCar{
-}
 ```
 
 
