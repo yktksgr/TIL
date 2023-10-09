@@ -173,6 +173,9 @@ public class ExSubClassMain {
 }
 ```
 
-
+結果
+```
+5000
+```
 
 
