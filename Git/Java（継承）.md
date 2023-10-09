@@ -146,7 +146,32 @@ public class OldCar extends BaseCar {
 
 ---
 
+```ExClass.java
+class ExClass {
+    public void increase(int i) {  //引数を10倍にするメソッド
+        int x = i * 10;
+        System.out.println(x);
+    }
+}
+```
+```SubExClass.java
+class SubExClass extends ExClass {
+    public void increase(int i) {  //引数を1000倍にするメソッド
+        int x = i * 1000;
+        System.out.println(x);
+    }
+}
+```
 
+```ExSubClassMain.java
+public class ExSubClassMain {
+  public static void main(String[] args){
+    //サブクラスのインスタンス化
+    SubExClass sub = new SubExClass();
+    sub.increase(5);
+  }
+}
+```
 
 
 
