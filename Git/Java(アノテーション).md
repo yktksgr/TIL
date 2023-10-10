@@ -61,4 +61,7 @@ implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 
 以下の作業を行う
 
+① 表示させるためのHTMLを作成する   
+② コントローラーから①のファイルを読み込めるようにする
+
 
