@@ -67,5 +67,14 @@ Spring BootでHTMLを作成する際は、保存するフォルダが決まっ�
 必ず「firstapp」「src」「main」「resources」フォルダにある「templates」フォルダ内に保存する
 
 ② コントローラーから①のファイルを読み込めるようにする
+```Java
+@Controller
+public class PostController {
+    @GetMapping("/hello")
+    public String showHello(){
+        return "hello";
+    }
+}
 ```
+return "hello";と記述することで、「templates」フォルダにある「hello.html」を呼び出すことが可能となる！
 
