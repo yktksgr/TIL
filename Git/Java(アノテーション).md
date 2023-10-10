@@ -56,3 +56,9 @@ ERBを使用することで、コントローラーとビューのコードを�
 ```java
 implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 ```
+
+◾️Thymeleafの使い方
+
+以下の作業を行う
+
+
