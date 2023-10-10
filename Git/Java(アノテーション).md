@@ -57,11 +57,15 @@ ERBを使用することで、コントローラーとビューのコードを�
 implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 ```
 
-◾️Thymeleafの使い方
+▫️Thymeleafの使い方
 
 以下の作業を行う
 
-① 表示させるためのHTMLを作成する   
-② コントローラーから①のファイルを読み込めるようにする
+① 表示させるためのHTMLを作成する
 
+Spring BootでHTMLを作成する際は、保存するフォルダが決まっている。　　　
+必ず「firstapp」「src」「main」「resources」フォルダにある「templates」フォルダ内に保存する
+
+② コントローラーから①のファイルを読み込めるようにする
+```
 
