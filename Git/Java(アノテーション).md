@@ -78,3 +78,4 @@ public class PostController {
 ```
 return "hello";と記述することで、「templates」フォルダにある「hello.html」を呼び出すことが可能となる！
 
+---
