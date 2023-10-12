@@ -81,5 +81,18 @@ NumberFormatException（数値フォーマット例外）:
 
 ・メソッドがどの種類の例外をスローするかを明示的に宣言するもので、プログラマーにとってそのメソッドの使用方法や例外処理がどのように行われるべきかを理解しやすくするもの
 
+以下例　「割り算」の関数、ゼロで割るとエラーが発生するもの
+```java
+public int divide(int numerator, int denominator) throws ArithmeticException {
+    if (denominator == 0) {
+        throw new ArithmeticException("ゼロで割ることはできません");
+    }
+    return numerator / denominator;
+}
+```
+throws ArithmeticException という部分がスロー宣言。
+
+この関数を使うプログラマーに「ゼロで割る可能性があること」を伝えている！
+
 
 
