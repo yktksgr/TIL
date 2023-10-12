@@ -1,7 +1,7 @@
 # Javaの設計
 
 # エラーの種類
-Javaプログラムの場合は大きく3つに分類できます。
+Javaプログラムの場合は大きく3つに分類。
 
 文法エラー(syntax error)    
 実行時エラー(runtime error)   
